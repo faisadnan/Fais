@@ -21,8 +21,7 @@ os.system("clear")
 os.system("figlet DDos Attack")
 print
 print "Author   : Fais Adnan"
-print "You Tube : https://m.youtube.com/channel/UCA1P0obeKhGOyf-Nx9sqTfw "
-
+print "Dont Be Abuser" 
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
